@@ -123,6 +123,15 @@ body {
   padding: 120px 0;
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .section-second-list-start {
@@ -221,12 +230,11 @@ body {
 .our-portfolio {
   width: calc((100% - 72px) / 4);
 }
-.application-category{
+.application-category {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
 }
 .section-fourth-paragraph {
   font-size: 16px;
