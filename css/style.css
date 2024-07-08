@@ -80,7 +80,7 @@ body {
   color: #404bbf;
 }
 
-.section-one {
+.section-first {
   background-color: #2e2f42;
   font-size: 56px;
   line-height: 1.07;
@@ -119,17 +119,20 @@ body {
 .button:focus {
   background-color: #404bbf;
 }
-.section-two {
+.section-second {
   padding: 120px 0;
 }
-.section-two-list-start {
+.visually-hidden {
+  overflow: hidden;
+}
+.section-second-list-start {
   display: flex;
   gap: 24px;
 }
 .Advantages {
   width: calc((100% - 72px) / 4);
 }
-.section-two-header {
+.section-second-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -137,17 +140,17 @@ body {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.section-two-paragraph {
+.section-second-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-three {
+.section-third {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.section-three-header {
+.section-third-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -156,7 +159,7 @@ body {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.section-three-list-start {
+.section-third-list-start {
   display: flex;
   gap: 24px;
 }
@@ -190,7 +193,7 @@ body {
   text-align: center;
 }
 
-.section-four-header {
+.section-fourth-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -198,14 +201,14 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.section-four-header-three {
+.section-fourth-header-third {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-four-paragraph {
+.section-fourth-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
