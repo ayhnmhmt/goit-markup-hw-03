@@ -8,6 +8,8 @@ body {
 }
 .div-header {
   display: flex;
+  justify-content: space-between;
+}
 }
 .container {
   width: 1158px;
