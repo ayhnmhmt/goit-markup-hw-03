@@ -236,7 +236,7 @@ body {
   margin-bottom: 8px;
 }
 .fourth-section-list-item {
-  flex-basis: calc((100%-3 * 24px) / 4);
+  flex-basis: calc((100%-3*24px)/4);
   list-style: none;
 }
 .app-card {
