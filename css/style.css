@@ -8,6 +8,7 @@ body {
 }
 .div-header {
   display: flex;
+  justify-content: space-around;
 }
 .container {
   width: 1158px;
@@ -41,6 +42,7 @@ body {
 .nav-list-start {
   display: flex;
   gap: 40px;
+  list-style: none;
 }
 .nav-link {
   color: #2e2f42;
@@ -63,6 +65,7 @@ body {
 .contact-list-start {
   display: flex;
   gap: 40px;
+  list-style: none;
 }
 .contact-link {
   font-size: 16px;
@@ -89,11 +92,14 @@ body {
   color: #ffffff;
   padding: 188px 0;
 }
+
 .section-effective {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  text-align: center;
+  color: #ffffff;
 }
 .button {
   background-color: #4d5ae5;
@@ -140,7 +146,9 @@ body {
 }
 .section-second-lists {
   width: calc((100% - 72px) / 4);
+  list-style: none;
 }
+
 .section-second-header {
   font-weight: 500;
   font-size: 20px;
@@ -175,11 +183,9 @@ body {
 
 .our-team {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  list-style: none;
 }
 .name-work {
   padding: 32px 0;
@@ -201,11 +207,12 @@ body {
   color: #434455;
   text-align: center;
 }
-.section-fourth {
-  padding: 120px 0;
+.fourth-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.section-fourth-header {
+.fourth-section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -214,29 +221,30 @@ body {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.section-forth-lists {
+.fourth-section-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.section-fourth-header-third {
+.app-category-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-.our-portfolio {
+.fourth-section-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  list-style: none;
 }
-.application-category {
+.app-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
-.section-fourth-paragraph {
+.section-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
