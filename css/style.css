@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
+}
 .container {
   width: 1158px;
   margin: 0 auto;
